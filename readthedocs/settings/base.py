@@ -106,7 +106,7 @@ INSTALLED_APPS = (
 )
 
 
-CARROT_BACKEND = "ghettoq.taproot.Database"
+CARROT_BACKEND = "django"
 CELERY_ALWAYS_EAGER = True
 CELERYD_TASK_TIME_LIMIT = 60*60 #60 minutes
 

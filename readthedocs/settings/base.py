@@ -83,6 +83,7 @@ INSTALLED_APPS = (
     'pagination',
     'registration',
     'djcelery',
+    'djkombu',
     'taggit',
     'south',
     'django_extensions',
